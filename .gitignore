@@ -1,0 +1,37 @@
+# Diretórios e arquivos gerados pelo Go
+/bin/
+/pkg/
+/build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Arquivos de dependências
+vendor/
+
+# Módulos do Go
+go.sum
+
+# Ferramentas de desenvolvimento
+.idea/
+*.iml
+*.out
+
+# Configurações de ambiente
+.env
+
+# Logs e depurações
+*.log
+*.tmp
+
+# Arquivos do editor
+*.swp
+*.swo
+*~
+
+# Sistemas específicos
+.DS_Store
+Thumbs.db
